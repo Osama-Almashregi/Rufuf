@@ -1,0 +1,41 @@
+.hero-bg-image {
+  background: URL('https://picsum.photos/id/20/3670/2462') no-repeat center center /cover;
+  background-attachment: fixed;
+  height: 400px;
+}
+
+.authors-bg-image {
+  background: URL('https://picsum.photos/id/20/3670/2466') no-repeat center center /cover;
+  background-attachment: fixed;
+}
+
+body {
+  font-family: "REM", sans-serif;
+}
+
+.mycolor {
+  background: linear-gradient(to right, #4E8FD1, #5ACBF1);
+}
+.color{
+  color: rgb(5, 94, 202);
+}
+
+.active {
+  color: rgb(5, 94, 202);
+  font-weight: bold;
+  background: #fff;
+  padding: 6px;
+  border-radius:6px;
+
+
+}
+
+.myborder {
+  border: 10px solid linear-gradient(to right, #4E8FD1, #5ACBF1);
+}
+.text-shadow {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.box-shadow {
+  box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.2),  8px 8px 8px 8px rgba(0, 0, 0, 0.19);
+}
